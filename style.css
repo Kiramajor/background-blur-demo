@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url('image-photography.jpg') no-repeat center center/cover ;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    filter: blur(0px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white; 
+    text-align: center;
+    font-size: 50px;
+}
